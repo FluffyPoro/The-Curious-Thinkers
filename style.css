@@ -1,0 +1,302 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(240, 240, 232);
+
+}
+nav .navbar{
+    background-color: rgb(240, 240, 232);
+    background-image: url(images/1000013114.jpg);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: 25%;
+    padding: 11px 0;
+    outline: auto;
+    position: fixed;
+    z-index: 998;
+}
+nav ul{
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+nav li{
+    height: 70px;
+}
+nav a{
+    height: 100%;
+    padding: 0 25px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    color: black;
+}
+nav li:first-child{
+    margin-right: auto;
+}
+
+nav a:hover{
+    background-color: rgb(129, 125, 124);
+}
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 250px;
+    z-index: 999;
+    background-color: rgb(189, 179, 179);
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.sidebar li{
+    width: 100%;
+}
+.sidebar a{
+    width: 100%;
+    font-size: 24px;
+}
+.show {
+    animation: sidebarAnimation 0.5s forwards;
+}
+  
+.hide {
+    animation: closesideBar 0.5s forwards;
+}
+.wrapper{
+    height: 100%;
+    width: 100%;
+}
+.WhatWhy{
+    width: 1200px;
+    padding: 90px 0;
+    margin: auto auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center
+}
+.Streaming{
+    width: 1200px;
+    padding: 90px 0;
+    margin: auto auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.subhead1{
+    margin: 0 0 20px 0;
+    animation: animateTitle 1s forwards;
+    opacity: 0
+}
+.subhead2{
+    margin: 30px 0 0 0
+}
+.firstS, .secondS, .thirdS, .fifthS, .sixthS, .seventhS{
+    font-size: 30px;
+    outline: 2px Solid #333;
+    outline-offset: 30px;
+    margin: 100px;
+}
+.fourthS{
+    outline:2px Solid #333;
+    outline-offset: 30px;
+}
+.subhead{
+    font-size: 45px;
+    margin: 0 0 0 250px
+}
+
+.title1S{
+    font-size:100px;
+    margin: 50px;
+    text-align: center;
+    font-weight: bold;
+    color: #333;
+    text-shadow: 0px 1px 0px #ccc, 0px 2px 0px #aaa, 0px 3px 0px #999, 0px 4px 0px #888, 0px 5px 0px #777, 0px 6px 0px #666, 0px 7px 0px #555, 0px 8px 0px #444, 0px 9px 0px #333;
+
+}
+.title1{
+    font-size:60px;
+    margin: 50px;
+    text-align: center;
+    font-weight: bold;
+    color: #333;
+    text-shadow: 0px 1px 0px #ccc, 0px 2px 0px #aaa, 0px 3px 0px #999, 0px 4px 0px #888, 0px 5px 0px #777, 0px 6px 0px #666, 0px 7px 0px #555, 0px 8px 0px #444, 0px 9px 0px #333;
+
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+.first{
+    font-size: 30px;
+    outline: 2px Solid #333;
+    outline-offset: 5px;
+    margin: 0 500px 110px 0
+}
+.second{
+    outline: 2px Solid #333;
+    outline-offset: 5px;
+    font-size: 30px;
+    margin: 0 0px 110px 510px
+}
+.third{
+    outline: 2px Solid #333;
+    outline-offset: 5px;;
+    font-size: 30px;
+    margin: 0 500px 110px 0
+}
+.fourth{
+    font-size: 30px;
+    outline: 2px Solid #333;
+    outline-offset: 5px;
+    margin: 0 0px 110px 510px
+}
+.ABOUTus{
+	width: 1200px;
+	margin: 0 auto;
+	padding: 90px 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.ABOUTus .title{
+    font-size: 80px;
+    margin:0 0 0 0;
+}
+.ABOUTus h1{
+    font-size: 100px;
+    margin: 40px 0;
+}
+.ABOUTus .poster{
+    width: 550px;
+    margin: 11px 0 0 0;    
+}
+.ABOUTus .parts{
+    margin: 100px 0 0 0;
+    font-size: 70px;
+    display: flex;
+    flex-direction: row;
+    gap: 300px
+}
+.ABOUTus .VOD{
+    margin: 0px 0 100px 0;
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+.ABOUTus .sub_des1{
+    font-size: 30px;
+    margin: 10px 160px;
+}
+.ABOUTus .sub_des2{
+    font-size: 30px;
+    margin: 10px 110px;
+}
+.typewriter {
+    overflow: hidden; 
+    visibility:;
+}
+  
+table {
+    border-collapse: collapse;
+    width: 100%;
+    outline: 2px Solid #333;
+    outline-offset: 0px;
+  }
+  
+  th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #f0f0f0;
+}
+ 
+.typewriter span {
+    display: inline-block;
+    opacity: 0;
+    transform: translateX(-100%);
+}
+  
+  .typewriter span.animated {
+    animation: revealText 2s forwards;
+}
+  
+@keyframes revealText {
+    0% {
+      opacity: 0;
+      transform: translateX(-100%);
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+}
+
+@keyframes sidebarAnimation{
+    0%{
+        width: 0;
+        display: none
+    }
+    100%{
+        width: 250px;
+        display: flex
+    }
+}
+@keyframes closesideBar{
+    0%{
+        width: 250px;
+        display: flex
+    }
+    100%{
+        width: 0;
+        display: none
+    }
+}
+
+.first h2 span, .second h2 span, .third h2 span, .fourth h2 span {
+    animation: animateTitle 1s forwards;
+    opacity: 0;
+  }
+  
+  @keyframes animateTitle {
+    0% {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+
